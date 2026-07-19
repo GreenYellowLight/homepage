@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/garden-planner",
-      "destination": "https://garden-planner-pm3gs0twc-greenyellowlights-projects.vercel.app"
+      "destination": "https://garden-planner-psi.vercel.app"
     },
     {
       "source": "/garden-planner/:path*",
-      "destination": "https://garden-planner-pm3gs0twc-greenyellowlights-projects.vercel.app/:path*"
+      "destination": "https://garden-planner-psi.vercel.app/:path*"
     }
   ]
 }
