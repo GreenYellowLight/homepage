@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/garden-planner",
+      "destination": "https://garden-planner-pm3gs0twc-greenyellowlights-projects.vercel.app"
+    },
+    {
+      "source": "/garden-planner/:path*",
+      "destination": "https://garden-planner-pm3gs0twc-greenyellowlights-projects.vercel.app/:path*"
+    }
+  ]
+}
