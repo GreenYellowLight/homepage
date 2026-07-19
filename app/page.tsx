@@ -13,8 +13,15 @@ export default function Home() {
         <div className="flex w-full flex-col items-center gap-2">
           <a
             href="/garden-planner"
-            className="flex h-12 w-full items-center justify-center rounded-full bg-foreground px-5 text-base font-medium text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc]"
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-base font-medium text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc]"
           >
+            <Image
+              src="/garden-planner.png"
+              alt="Garden Planner logo"
+              width={20}
+              height={20}
+              className="rounded-sm"
+            />
             Garden Planner
           </a>
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
