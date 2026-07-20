@@ -1,7 +1,19 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async rewrites() {
+    
+    return [
+      {
+        source: '/garden-planner',
+        destination: `${process.env.GARDEN_PLANNER_DOMAIN}/garden-planner`,
+      },
+      {
+        source: '/garden-planner/:path+',
+        destination: `${process.env.GARDEN_PLANNER_DOMAIN}/garden-planner/:path+`,
+      },
+    ];
+  }
 };
 
 export default nextConfig;
