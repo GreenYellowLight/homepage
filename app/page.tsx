@@ -1,5 +1,16 @@
 import PillLink from "./_components/PillLink";
 
+const yearsOfExperience = ( () => {
+  const startYear = 2024
+  const startMonth = 6 // TODO: include various work beforehand?
+
+  const now = new Date()
+  
+  return now.getFullYear() - startYear + (startMonth > now.getMonth() ? 1 : 0)
+
+})();
+
+
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center bg-zinc-20 font-san">
@@ -8,7 +19,7 @@ export default function Home() {
           Linden Beaumont
         </h1>
         <p className="mx-auto mt-4 text-xl max-w-sm px-6 text-sm text-zinc-500 dark:text-zinc-400">
-          Melbourne based software developer with 2 years experience. See my projects below or get in touch at{" "}
+          Melbourne based software developer with {yearsOfExperience} years experience. See my projects below or get in touch at{" "}
           <a
             href="mailto:lindenbeaumont@protonmail.com"
             className="text-black underline underline-offset-2 hover:text-zinc-600"
