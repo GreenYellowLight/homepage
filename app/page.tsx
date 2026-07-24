@@ -42,7 +42,7 @@ export default function Home() {
           <PillLink
             href="/garden-planner"
             label="Garden Planner"
-            iconSrc="/garden-planner.png"
+            iconSrc="/garden-planner.svg"
             external={false}
           />
           <p className="text-sm text-zinc-500 dark:text-zinc-400">(Not on GitHub)</p>
