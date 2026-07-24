@@ -17,7 +17,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center bg-zinc-20 font-san">
 
 
-      <main className="flex flex-1 w-full max-w-xl flex-col items-center justify-center gap-4">
+      <main className="flex flex-1 w-full max-w-xl flex-col items-center md:justify-center md:pt-0 pt-8 gap-4">
         <Image 
           src="/homepage-logo.svg"
           alt="website logo"
