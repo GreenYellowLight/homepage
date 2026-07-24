@@ -18,7 +18,7 @@ export default function PillLink({
     <a
       href={href}
       {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-      className={`flex h-12 w-full items-center justify-center gap-2 rounded-full px-5 text-base font-medium 
+      className={`flex h-12 md:w-xs w-full items-center justify-center gap-2 rounded-full text-xl font-medium 
         transition-colors bg-gray-200 hover:bg-gray-400`}
     >
       <Image

@@ -27,7 +27,7 @@ export default function Home() {
         />
 
         <h1 className="text-6xl font-semibold tracking-tight text-center text-black">Linden Beaumont</h1>
-        <p className="mx-auto text-xl max-w-xl pt-2 pb-8 text-center text-sm text-zinc-500 dark:text-zinc-400">
+        <p className="mx-auto text-xl max-w-xl pt-1 pb-4 text-center text-sm text-zinc-500 dark:text-zinc-400">
           Melbourne based software developer with {yearsOfExperience} years experience.
           See my projects below or get in touch at{" "}
         <a
