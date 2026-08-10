@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "homepage": {
+      "development": {
+        "fallback": "www.lindenbeaumont.com"
+      }
+    },
+    "garden-planner": {
+      "routing": [
+        {
+          "paths": ["/garden-planner"]
+        }
+      ]
+    }
+  }
+}
