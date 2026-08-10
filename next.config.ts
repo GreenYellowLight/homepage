@@ -1,19 +1,6 @@
 import type { NextConfig } from 'next';
+import { withMicrofrontends } from '@vercel/microfrontends/next/config';
 
-const nextConfig: NextConfig = {
-  async rewrites() {
-    
-    return [
-      {
-        source: '/garden-planner',
-        destination: `${process.env.GARDEN_PLANNER_DOMAIN}/garden-planner`,
-      },
-      {
-        source: '/garden-planner/:path+',
-        destination: `${process.env.GARDEN_PLANNER_DOMAIN}/garden-planner/:path+`,
-      },
-    ];
-  }
-};
+const nextConfig: NextConfig = {};
 
-export default nextConfig;
+export default withMicrofrontends(nextConfig);
