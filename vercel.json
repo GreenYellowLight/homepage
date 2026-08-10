@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/garden-planner",
+      "destination": "https://garden-planner-psi.vercel.app/garden-planner"
+    },
+    {
+      "source": "/garden-planner/:path+",
+      "destination": "https://garden-planner-psi.vercel.app/garden-planner/:path+"
+    }
+  ]
+}
