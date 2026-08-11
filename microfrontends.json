@@ -9,7 +9,7 @@
     "garden-planner": {
       "routing": [
         {
-          "paths": ["/garden-planner/:path*"]
+          "paths": ["/garden-planner"]
         }
       ]
     }
